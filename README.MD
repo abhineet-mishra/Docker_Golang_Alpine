@@ -6,8 +6,8 @@
  
 #### Example
  
-   sudo docker build -t godocker/docker .
-   sudo docker run -p 9040:4000 -d godocker/docker
+   1. sudo docker build -t godocker/docker .
+   2. sudo docker run -p 9040:4000 -d godocker/docker
  
    
    
