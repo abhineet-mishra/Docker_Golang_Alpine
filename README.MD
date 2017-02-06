@@ -11,7 +11,7 @@
 
 ### For using Iris framework based Go API
  
-   In dockerfile uncomment the line number 12 and comment the line number 13.
+   In dockerfile uncomment the line number 12 and comment the line number 13. Modify the line number 17 "CMD cd /src && go run ./golan.go"
    1. sudo docker build -t godocker/docker .
    2. sudo docker run -p 8080:9040 -d godocker/docker
    
